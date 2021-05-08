@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmi:id="_kkgsMBeLEd60N8ipLbB6nA" name="ObjectOrientedModel_3">
+  <packagedElement xmi:type="uml:Class" xmi:id="_AXZIMK7YEeuR_c1-Jo1OCw" name="Shape">
+    <ownedOperation xmi:id="_AazBgK7YEeuR_c1-Jo1OCw" name="draw" visibility="public" bodyCondition="_AbAc4K7YEeuR_c1-Jo1OCw">
+      <ownedRule xmi:id="_AbAc4K7YEeuR_c1-Jo1OCw">
+        <specification xmi:type="uml:LiteralString" xmi:id="_AbFVYK7YEeuR_c1-Jo1OCw" name="TemplateBody" value="%DefaultBody%"/>
+      </ownedRule>
+      <ownedParameter xmi:id="_AbkdkK7YEeuR_c1-Jo1OCw" name="draw" type="_AbuOkK7YEeuR_c1-Jo1OCw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_AbzHEK7YEeuR_c1-Jo1OCw" name="erase" visibility="public" bodyCondition="_Ab2xcK7YEeuR_c1-Jo1OCw">
+      <ownedRule xmi:id="_Ab2xcK7YEeuR_c1-Jo1OCw">
+        <specification xmi:type="uml:LiteralString" xmi:id="_Ab3YgK7YEeuR_c1-Jo1OCw" name="TemplateBody" value="%DefaultBody%"/>
+      </ownedRule>
+      <ownedParameter xmi:id="_Ab7p8K7YEeuR_c1-Jo1OCw" name="erase" type="_AbuOkK7YEeuR_c1-Jo1OCw" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_AbuOkK7YEeuR_c1-Jo1OCw" name="void"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_AcKTcK7YEeuR_c1-Jo1OCw" name="Circle">
+    <generalization xmi:id="_AcVSkK7YEeuR_c1-Jo1OCw" general="_AXZIMK7YEeuR_c1-Jo1OCw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_AdDrUK7YEeuR_c1-Jo1OCw" name="Factory" clientDependency="_Ah4g8K7YEeuR_c1-Jo1OCw _Ah8yYK7YEeuR_c1-Jo1OCw _AiAcwK7YEeuR_c1-Jo1OCw _AiDgEK7YEeuR_c1-Jo1OCw">
+    <ownedOperation xmi:id="_AdnsAK7YEeuR_c1-Jo1OCw" name="create" visibility="public" bodyCondition="_AdrWYK7YEeuR_c1-Jo1OCw">
+      <ownedRule xmi:id="_AdrWYK7YEeuR_c1-Jo1OCw">
+        <specification xmi:type="uml:LiteralString" xmi:id="_Adr9cK7YEeuR_c1-Jo1OCw" name="TemplateBody" value="%DefaultBody%"/>
+      </ownedRule>
+      <ownedParameter xmi:id="_Ad4xwK7YEeuR_c1-Jo1OCw" name="arg" type="_Ad-RUK7YEeuR_c1-Jo1OCw"/>
+      <ownedParameter xmi:id="_Ad_fcK7YEeuR_c1-Jo1OCw" name="create" type="_AXZIMK7YEeuR_c1-Jo1OCw" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_Ad-RUK7YEeuR_c1-Jo1OCw" name="String"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_AeRMQK7YEeuR_c1-Jo1OCw" name="Triangle">
+    <generalization xmi:id="_AecycK7YEeuR_c1-Jo1OCw" general="_AXZIMK7YEeuR_c1-Jo1OCw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Aff7UK7YEeuR_c1-Jo1OCw" name="Rectangle">
+    <generalization xmi:id="_AfpFQK7YEeuR_c1-Jo1OCw" general="_AXZIMK7YEeuR_c1-Jo1OCw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_AgTzoK7YEeuR_c1-Jo1OCw" name="UnsupportedShapeException"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_Ah4g8K7YEeuR_c1-Jo1OCw" name="Dependency_1" supplier="_AcKTcK7YEeuR_c1-Jo1OCw" client="_AdDrUK7YEeuR_c1-Jo1OCw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_Ah8yYK7YEeuR_c1-Jo1OCw" name="Dependency_2" supplier="_Aff7UK7YEeuR_c1-Jo1OCw" client="_AdDrUK7YEeuR_c1-Jo1OCw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_AiAcwK7YEeuR_c1-Jo1OCw" name="create" supplier="_AeRMQK7YEeuR_c1-Jo1OCw" client="_AdDrUK7YEeuR_c1-Jo1OCw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_AiDgEK7YEeuR_c1-Jo1OCw" name="Dependency_4" supplier="_AgTzoK7YEeuR_c1-Jo1OCw" client="_AdDrUK7YEeuR_c1-Jo1OCw"/>
+</uml:Model>

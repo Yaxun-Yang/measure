@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmi:id="_kkgsMBeLEd60N8ipLbB6nA" name="ForMesure">
+  <packagedElement xmi:type="uml:Class" xmi:id="_CCHSEK8vEeuWCZJGK1MtWw" name="Class1">
+    <ownedAttribute xmi:id="_CDiOYK8vEeuWCZJGK1MtWw" name="attribute1" visibility="private" type="_CDlRsK8vEeuWCZJGK1MtWw"/>
+    <ownedAttribute xmi:id="_CDo8EK8vEeuWCZJGK1MtWw" name="attribute2" visibility="private" type="_CDlRsK8vEeuWCZJGK1MtWw"/>
+    <ownedOperation xmi:id="_CECksK8vEeuWCZJGK1MtWw" name="operation1" visibility="public" bodyCondition="_CEHdMK8vEeuWCZJGK1MtWw">
+      <ownedRule xmi:id="_CEHdMK8vEeuWCZJGK1MtWw">
+        <specification xmi:type="uml:LiteralString" xmi:id="_CEHdMa8vEeuWCZJGK1MtWw" name="TemplateBody" value="%DefaultBody%"/>
+      </ownedRule>
+      <ownedParameter xmi:id="_CEtTEK8vEeuWCZJGK1MtWw" name="operation1" type="_CDlRsK8vEeuWCZJGK1MtWw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_CEvvUK8vEeuWCZJGK1MtWw" name="operation2" visibility="public" bodyCondition="_CEyyoK8vEeuWCZJGK1MtWw">
+      <ownedRule xmi:id="_CEyyoK8vEeuWCZJGK1MtWw">
+        <specification xmi:type="uml:LiteralString" xmi:id="_CEyyoa8vEeuWCZJGK1MtWw" name="TemplateBody" value="%DefaultBody%"/>
+      </ownedRule>
+      <ownedParameter xmi:id="_CE118K8vEeuWCZJGK1MtWw" name="operation2" type="_CDlRsK8vEeuWCZJGK1MtWw" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_CDlRsK8vEeuWCZJGK1MtWw" name="int"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_CFDRUK8vEeuWCZJGK1MtWw" name="Class2">
+    <generalization xmi:id="_CFJ_AK8vEeuWCZJGK1MtWw" general="_CCHSEK8vEeuWCZJGK1MtWw"/>
+    <ownedAttribute xmi:id="_CFWzUK8vEeuWCZJGK1MtWw" name="attribute1" visibility="private" type="_CDlRsK8vEeuWCZJGK1MtWw"/>
+    <ownedAttribute xmi:id="_CFYogK8vEeuWCZJGK1MtWw" name="attribute2" visibility="private" type="_CDlRsK8vEeuWCZJGK1MtWw"/>
+    <ownedOperation xmi:id="_CFsxkK8vEeuWCZJGK1MtWw" name="operation2" visibility="public" bodyCondition="_CFt_sK8vEeuWCZJGK1MtWw">
+      <ownedRule xmi:id="_CFt_sK8vEeuWCZJGK1MtWw">
+        <specification xmi:type="uml:LiteralString" xmi:id="_CFumwK8vEeuWCZJGK1MtWw" name="TemplateBody" value="%DefaultBody%"/>
+      </ownedRule>
+      <ownedParameter xmi:id="_CFxqEK8vEeuWCZJGK1MtWw" name="operation2" type="_CDlRsK8vEeuWCZJGK1MtWw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_CF0GUK8vEeuWCZJGK1MtWw" name="operation1" visibility="public" bodyCondition="_CF17gK8vEeuWCZJGK1MtWw">
+      <ownedRule xmi:id="_CF17gK8vEeuWCZJGK1MtWw">
+        <specification xmi:type="uml:LiteralString" xmi:id="_CF17ga8vEeuWCZJGK1MtWw" name="TemplateBody" value="%DefaultBody%"/>
+      </ownedRule>
+      <ownedParameter xmi:id="_CF4-0K8vEeuWCZJGK1MtWw" name="operation1" type="_CDlRsK8vEeuWCZJGK1MtWw" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_CGFMEK8vEeuWCZJGK1MtWw" name="Class3">
+    <generalization xmi:id="_CGLSsK8vEeuWCZJGK1MtWw" general="_CCHSEK8vEeuWCZJGK1MtWw"/>
+    <ownedAttribute xmi:id="_CGXf8K8vEeuWCZJGK1MtWw" name="attribute1" visibility="private" type="_CDlRsK8vEeuWCZJGK1MtWw"/>
+    <ownedAttribute xmi:id="_CGZVIK8vEeuWCZJGK1MtWw" name="attribute2" visibility="private" type="_CDlRsK8vEeuWCZJGK1MtWw"/>
+    <ownedOperation xmi:id="_CGqa4K8vEeuWCZJGK1MtWw" name="operation1" visibility="public" bodyCondition="_CGrpAK8vEeuWCZJGK1MtWw">
+      <ownedRule xmi:id="_CGrpAK8vEeuWCZJGK1MtWw">
+        <specification xmi:type="uml:LiteralString" xmi:id="_CGsQEK8vEeuWCZJGK1MtWw" name="TemplateBody" value="%DefaultBody%"/>
+      </ownedRule>
+      <ownedParameter xmi:id="_CGvTYK8vEeuWCZJGK1MtWw" name="operation1" type="_CDlRsK8vEeuWCZJGK1MtWw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_CGwhgK8vEeuWCZJGK1MtWw" name="operation2" visibility="public" bodyCondition="_CGxvoK8vEeuWCZJGK1MtWw">
+      <ownedRule xmi:id="_CGxvoK8vEeuWCZJGK1MtWw">
+        <specification xmi:type="uml:LiteralString" xmi:id="_CGxvoa8vEeuWCZJGK1MtWw" name="TemplateBody" value="%DefaultBody%"/>
+      </ownedRule>
+      <ownedParameter xmi:id="_CG1aAK8vEeuWCZJGK1MtWw" name="operation2" type="_CDlRsK8vEeuWCZJGK1MtWw" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+</uml:Model>
